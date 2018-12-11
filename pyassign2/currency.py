@@ -1,3 +1,6 @@
+__author__ = "Tanghaoyi"
+__pkuid__  = "1800011775"
+__email__  = "1800011775@pku.edu.cn"
 from urllib.request import urlopen
 currency_from = str(input())#现在所拥有类型
 currency_to = str(input())#要转化的类型
