@@ -99,6 +99,6 @@ for i in range (a):
     t.left(90)
     t.forward(b*10)
     t.right(90)
-
+#用turtle画出来所有的1*1小方格
 
     
