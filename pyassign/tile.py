@@ -75,17 +75,30 @@ print(len(all_ans))
 if __name__ == '__main__':
     main()
 
+
 import turtle
 import random
 t = turtle.Turtle()
 x = all_ans[random.randint(0,len(all_ans)+1)]
-
-for i in range(2) :
+for i in range (2):
     t.forward(a*10)
     t.right(90)
     t.forward(b*10)
     t.right(90)
-
+for i in range (a):
+    for i in range (int(b/2)):
+        t.forward(10)
+        t.right(90)
+        t.forward(10)
+        t.right(90)
+        t.forward(10)
+        t.left(90)
+        t.forward(10)
+        t.left(90)
+    t.forward(10)
+    t.left(90)
+    t.forward(b*10)
+    t.right(90)
 
 
     
