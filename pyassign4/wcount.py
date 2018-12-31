@@ -13,7 +13,10 @@ import collections
 import urllib.error
 from urllib.request import urlopen
 
-def wcount(lines, topn=10):#定义函数，选取前十个
+def wcount(lines, topn=10):
+     """count words from lines of text string, then sort by their counts
+    in reverse order, output the topn (word count), each in one line. 
+    """
     doc = urlopen(lines) #进行网络请求
     docstr = doc.read() #读取网络上的文件
     doc.close() 
